@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Williams</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/photo_2024-09-18_09-37-14.jpg"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">Brian</a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">Brian</a>
+            <button class="navbar-close-btn" data-nav-toggler>
+              <i class="fa fa-window-close" style="color: #5eb8f5"></i>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Projects</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+          <div class="theme-wrapper">
+            <button id="theme-btn" class="btn theme">Change Theme</button>
+          </div>
+        </nav>
+        <button class="nav-open-btn" data-nav-toggler>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="section hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 title">
+                Brian Williams, IT support specialist and Front End Web
+                Developer
+              </h1>
+              <p class="section-text">
+                Hello! I'm Brian, a freelance front end web developer and a IT
+                specialist with a concentration in Networking.
+              </p>
+              <div class="social-icons-wrapper">
+                <i class="fa-brands fa-linkedin" style="color: #5eb8f5"></i>
+                <i class="fa-brands fa-github" style="color: #5eb8f5"></i>
+              </div>
+              <div class="btn-wrapper">
+                <button class="btn">See my works</button>
+                <button class="btn">Contact Me</button>
+              </div>
+            </div>
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/photo_2024-09-18_09-37-14.jpg"
+                width="500px"
+                height="500px"
+                alt="Brian"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section about">
+          <div class="container">
+            <div class="wrapper">
+              <div class="left">
+                <h2 class="h2 section-title">My Skills</h2>
+                <p class="section-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores magnam amet incidunt deserunt, nemo quidem inventore
+                  laboriosam voluptates iusto. Neque beatae dolorum et dolores,
+                  amet iure corrupti error facere ut!
+                </p>
+              </div>
+              <ul class="progress-list">
+                <li class="progress-item">
+                    <div class="label-wrapper">
+                        <p>IT Support</p>
+                        <span class="span">100%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 100%; background-color: #5eb8f5;"></div>
+                    </div>
+                </li>
+                <li class="progress-item">
+                    <div class="label-wrapper">
+                        <p>Cyber Security</p>
+                        <span class="span">70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 70%; background-color: #5eb8f5;"></div>
+                    </div>
+                </li>
+                <li class="progress-item">
+                    <div class="label-wrapper">
+                        <p>Business Continuity Disaster Recovery</p>
+                        <span class="span">80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 80%; background-color: #5eb8f5;"></div>
+                    </div>
+                </li>
+                <li class="progress-item">
+                    <div class="label-wrapper">
+                        <p>Microsoft 365</p>
+                        <span class="span">70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 70%; background-color: #5eb8f5;"></div>
+                    </div>
+                </li>
+                <li class="progress-item">
+                    <div class="label-wrapper">
+                        <p>Web Development</p>
+                        <span class="span">60%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 60%; background-color: #5eb8f5;"></div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
