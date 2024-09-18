@@ -336,4 +336,24 @@ footer {
   height: inherit;
 }
 
+.about-card{
+    text-align: center;
+    background-color: #000;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.about-card .card-icon i {
+    font-size: 45px;
+}
+
+.about-card .card-title{
+    margin: 16px 10px;
+}
+
+.about-card .card-text{
+    font-size: 20px;
+    color: #fff;
+}
+
 /*About section*/
